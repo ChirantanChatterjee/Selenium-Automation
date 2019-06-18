@@ -63,8 +63,8 @@ public class GoibiboTransaction {
 		Select Year = new Select(c.findElement(By.id("Adultdob_year1")));
 		Year.selectByVisibleText("1994");
 		
-		c.findElement(By.id("email")).sendKeys("27.chirantan@gmail.com");
-		c.findElement(By.id("mobile")).sendKeys("7908055587");
+		c.findElement(By.id("email")).sendKeys("abc.def@gmail.com");
+		c.findElement(By.id("mobile")).sendKeys("123456789");
 		Thread.sleep(3000);
 		c.findElement(By.xpath("//*[@id=\'travellerForm\']/div[2]/button")).click();
 		
